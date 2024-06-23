@@ -1,0 +1,20 @@
+:root {
+    --montserrat: 'Montserrat', sans-serif;
+    --fraunces: 'Fraunces', sans-serif;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(https://fonts.google.com/specimen/Montserrat)
+    format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fraunces';
+    src: url(https://fonts.google.com/specimen/Fraunces)
+    format('truetype');
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+}
