@@ -1,2 +1,16 @@
 @import url(/style/colors.css);
 @import url(/style/fonts.css);
+
+/* Reset all default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cream);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
